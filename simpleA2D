@@ -1,15 +1,3 @@
-
-
-enum gameState {START, PLAY, WAIT, CHECK, WIN, FAIL};
-gameState currentState = START;
-int inByte;
-int state;
-int pattern[20]; 
-int time;
-int time1;
-int time2;
-//int correct[];
-
 void setup() {
   Serial.begin(115200);    // setup serial, **NOTE BAUD RATE**
 }
